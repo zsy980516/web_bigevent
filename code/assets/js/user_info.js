@@ -19,9 +19,9 @@ $(function() {
                 if (res.status !== 0) {
                     return layer.msg(res.measseg);
                 }
-                console.log(res)
-                    // 调用 `form.val()`
-                    // 方法为表单赋值：          
+                // console.log(res)
+                // 调用 `form.val()`
+                // 方法为表单赋值：          
                 form.val('formUserInfo', res.data)
             }
         })
